@@ -150,22 +150,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>me.beam</groupId>
-			<artifactId>communicate-dto</artifactId>
-			<version>${beam.beans-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>me.beam</groupId>
-			<artifactId>message-activemq-consumer</artifactId>
-			<version>${beam.beans-version}</version>
-		</dependency>
+		
+		
 
-		<dependency>
-			<groupId>me.beam</groupId>
-			<artifactId>message-activemq-producer</artifactId>
-			<version>${beam.beans-version}</version>
-		</dependency>
+		
 
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -173,33 +161,9 @@
 			<version>2.10</version>
 		</dependency>
 
-		<dependency>
-			<groupId>me.beam</groupId>
-			<artifactId>beam-common</artifactId>
-			<version>${beam.beans-version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-web</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>me.beam</groupId>
-			<artifactId>beam-eye</artifactId>
-			<version>${beam.beans-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>me.beam</groupId>
-			<artifactId>beam-utils</artifactId>
-			<version>${beam.beans-version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.fasterxml.jackson.core</groupId>
-					<artifactId>jackson-databind</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+		
+		
+		
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
